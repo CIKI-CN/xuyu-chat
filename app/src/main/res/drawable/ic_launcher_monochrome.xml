@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 主题图标（Android 13 单色）：线稿，比实心剪影更有辨识度 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M44,35 H63 A12,12 0 0 1 75,47 V57 A12,12 0 0 1 63,69 H58 C55,73 50,77 47,81 L44,69 A12,12 0 0 1 33,57 V47 A12,12 0 0 1 44,35 Z" />
+
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M54,43 C55.3,48 57.5,50.2 62.5,51.5 C57.5,52.8 55.3,55 54,60 C52.7,55 50.5,52.8 45.5,51.5 C50.5,50.2 52.7,48 54,43 Z" />
+</vector>

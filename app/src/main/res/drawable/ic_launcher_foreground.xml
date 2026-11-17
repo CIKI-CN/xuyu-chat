@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 气泡本体 + 左下角垂下来的尾巴（整体在 66dp 安全圈内） -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M44,35 H63 A12,12 0 0 1 75,47 V57 A12,12 0 0 1 63,69 H58 C55,73 50,77 47,81 L44,69 A12,12 0 0 1 33,57 V47 A12,12 0 0 1 44,35 Z" />
+
+    <!-- 气泡里的「絮语」：一颗四角星，像话里轻轻闪的一下 -->
+    <path
+        android:fillColor="#FF4D6BFE"
+        android:pathData="M54,42.5 C55.3,48 57.5,50.2 63,51.5 C57.5,52.8 55.3,55 54,60.5 C52.7,55 50.5,52.8 45,51.5 C50.5,50.2 52.7,48 54,42.5 Z" />
+</vector>
