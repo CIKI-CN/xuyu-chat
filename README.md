@@ -11,12 +11,22 @@
 > 所有聊天记录、角色卡、Key 只存在手机本地，App 没有服务器。
 
 - 仓库：https://github.com/CIKI-CN/xuyu-chat
-- 安装包：自行编译（`./gradlew assembleRelease`），或到 Releases 看有没有人传
+- 安装包：[Releases](https://github.com/CIKI-CN/xuyu-chat/releases/latest) 里的 `xuyu-v1.7.apk`（6.26 MB），也可以自己编译
 - 界面截图：`screenshots/`（Robolectric 无真机渲染：`mode / chat-light / chat-dark-bg / drawer / settings-light / settings-rp / settings-quota / settings-search / settings-context / guide / disclaimer / icon-round`）
 - 包名：`app.xuyu.chat`（最低 Android 8.0 / API 26）
 - 版本：1.7（versionCode 8）
 
 ---
+
+## 下载安装
+
+从 [Releases](https://github.com/CIKI-CN/xuyu-chat/releases/latest) 下 `xuyu-v1.7.apk`（6.26 MB，Android 8.0+）：
+
+1. 手机点开 apk → 允许「安装未知来源应用」→ 安装
+2. 首次启动：读免责声明 → 选模式（日常聊天 / 角色扮演）→ 上手指南里拿 Key
+3. 设置 → 接口，填自己的 DeepSeek API Key
+
+也可以自己编译，见下面的「构建」。
 
 ## 功能
 
