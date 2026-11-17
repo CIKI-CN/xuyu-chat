@@ -1,13 +1,18 @@
 # 絮语 · Xuyu Chat
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Android](https://img.shields.io/badge/Android-8.0%2B-3ddc84?logo=android&logoColor=white)](https://developer.android.com)
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.9.24-7f52ff?logo=kotlin&logoColor=white)](https://kotlinlang.org)
+
 一个照着 DeepSeek 官方聊天界面手感做的 **纯本地 Android AI 聊天 App**（Kotlin + Jetpack Compose）。
 接 DeepSeek，也接任何 OpenAI 兼容接口（中转站 / Kimi / Qwen / 本地 Ollama…）。
 
-> **公开发布版：不内置任何 API Key**，第一次用要填自己的 Key（BYOK）。
+> **不内置任何 API Key**，第一次用要填自己的 Key（BYOK）。
+> 所有聊天记录、角色卡、Key 只存在手机本地，App 没有服务器。
 
-- 源码：`E:\91\xuyu-chat`
-- 安装包：`E:\91\xuyu-chat\dist\絮语-v1.7.apk`
-- 界面截图：`screenshots\`（Robolectric 无真机渲染：`mode / chat-light / chat-dark-bg / drawer / settings-light / settings-rp / settings-quota / settings-search / settings-context / guide / disclaimer / icon-round`）
+- 仓库：https://github.com/CIKI-CN/xuyu-chat
+- 安装包：自行编译（`./gradlew assembleRelease`），或到 Releases 看有没有人传
+- 界面截图：`screenshots/`（Robolectric 无真机渲染：`mode / chat-light / chat-dark-bg / drawer / settings-light / settings-rp / settings-quota / settings-search / settings-context / guide / disclaimer / icon-round`）
 - 包名：`app.xuyu.chat`（最低 Android 8.0 / API 26）
 - 版本：1.7（versionCode 8）
 
